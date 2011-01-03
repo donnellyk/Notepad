@@ -4,9 +4,10 @@
 		<script type="text/javascript" src="record.js"></script>
 	</head>
 	<body>
-		<textarea id="notepad"></textarea>
+		<textarea id="notepad" onkeydown="textChange()" onmousedown="timeStampDisplay()"></textarea>
 		<br/>
 		<a class="control" id="record" href="#" onclick="recordToggle()">Record</a>
 		<a class="control" id="playback" href="#">Playback</a>
+		<p id="ts"/>
 	</body>
 </html>
