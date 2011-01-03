@@ -1,0 +1,8 @@
+A simple notepad web app. Currently records the timestamp of every character typed and then displayed that timestamp when you click it using the mouse.
+
+Eventually, I want it to be able to record and playback audio to help give notes some context, if you say you are using them to record a lecture. Right now that isn't implmented because I really don't want to use Flash or Java (Slow!) so I'm looking for alternatives. Maybe Google Gears...
+
+ToDo:
+Backend Server using Ruby
+Local Storage for offline access
+Record audio (So you can actually use that timestamps)
